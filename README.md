@@ -1,6 +1,6 @@
 # Questioner
 
-An extension for inquirer module.
+An extension for [inquirer.js](https://github.com/SBoudrias/Inquirer.js).
 
 ## Installation
 
@@ -14,7 +14,7 @@ questioner.prompt([/* Pass your questions in here */], function( answers ) {
     // Use user feedback for... whatever!!
 });
 ```
-* Very similar to the inquirer module. See the inquirer module documentation
+* Very similar to the inquirer. See the [inquirer.js](https://github.com/SBoudrias/Inquirer.js) documentation
 
 
 ## The extension
@@ -55,4 +55,4 @@ And model question only made if mobile question is true.
 
 ### Confirmation
 
-At the end, questioner show answers, and made a confirmation question. If confirm, callback is call. Is not, Restart questions with the previous answers filled
+At the end, questioner show answers, and made a confirmation question. If confirm, callback is call. If not, Restart questions with the previous answers filled
