@@ -36,16 +36,16 @@ var questions = [{
             name: 'mobile.model',
             message: 'Model?',
             choices: ['3', '4', '4s', '5', '5s', '5c', '6', '6 plus']
-        ]},
+        }],
         'false': [{
             type: 'input',
             name: 'mobile.model',
             message: 'What is your phone model?'
-        ]},        
+        }],        
     }    
 }];
 
-questioner.prompt(questions, function( answers ) {
+questioner(questions, function( answers ) {
     // Use user feedback for... whatever!!
 });
 
